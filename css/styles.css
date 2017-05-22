@@ -1,0 +1,9 @@
+.img-center, .paragraph-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.paragraph-center {
+    max-width: 400px
+}
