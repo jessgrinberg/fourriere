@@ -2,6 +2,25 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+.services {
+    background-color: #F8F8F8;
+}
+
+.services .row {
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.intro {
+    background-color: #000;
+}
+
+.services-box {
+    background-color: #FFF;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
 .img-center, .paragraph-center, .services h2{
     display: block;
     margin-left: auto;
@@ -9,7 +28,8 @@ body {
 }
 
 .paragraph-center {
-    max-width: 400px
+    max-width: 400px;
+    padding: 1em 1em 0;
 }
 
 .cta {
@@ -17,6 +37,7 @@ body {
     color: #FFF;
     padding: 1em 1.5em;
     border: 0px solid #fff!important;
+    margin: 1em 0 .5em;
 }
 
 .cta:hover {
@@ -34,4 +55,5 @@ body {
     font-weight: 700;
     max-width: 400px;
     color: rgba(194, 47, 47,1);
+    padding: 1em 0 0.5em;
 }
