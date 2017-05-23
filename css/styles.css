@@ -8,7 +8,7 @@ body {
 
 .services .row {
     max-width: 992px;
-    margin: 0 auto;
+    margin: 5em auto;
 }
 
 .intro {
@@ -19,6 +19,7 @@ body {
     background-color: #FFF;
     max-width: 400px;
     margin: 0 auto;
+    padding: 0 0 3em;
 }
 
 .img-center, .paragraph-center, .services h2{
