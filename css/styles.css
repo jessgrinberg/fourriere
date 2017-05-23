@@ -11,3 +11,20 @@ body {
 .paragraph-center {
     max-width: 400px
 }
+
+.cta {
+    background-color: rgba(194, 47, 47,1);
+    color: #FFF;
+    padding: 1em 1.5em;
+    border: 0px solid #fff!important;
+}
+
+.cta:hover {
+    background-color: rgba(194, 47, 47,.95);
+    color: #FFF;
+    border: 0px solid #fff !important;
+}
+
+.cta span {
+    margin-right: .5em;
+}
