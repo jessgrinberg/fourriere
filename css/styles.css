@@ -2,6 +2,8 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+/*Services Section*/
+
 .services {
     background-color: #F8F8F8;
 }
@@ -57,4 +59,46 @@ body {
     max-width: 400px;
     color: rgba(194, 47, 47,1);
     padding: 1em 0 0.5em;
+}
+
+/*Demarches Section*/
+
+.nav-tabs li span {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    color: rgba(194, 47, 47,1);
+    margin: .5em 0;
+}
+
+.nav-tabs li a {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(194, 47, 47,1) !important;
+}
+
+.nav-tabs>li:hover,
+.nav-tabs>li.active>a{
+    border-bottom: 3px solid rgba(194, 47, 47,1);
+}
+
+.nav-tabs>li>a,
+.nav-tabs>li>a:hover,
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:hover {
+    border-top: 0px solid #ddd;
+    border-left: 0px solid #ddd;
+    border-right: 0px solid #ddd;
+    background-color: #fff;
+}
+
+
+
+#myTab.nav-tabs {
+    border: 1px solid transparent;
+}
+
+ul#myTab {
+    display: flex;
+    justify-content: center;
 }
