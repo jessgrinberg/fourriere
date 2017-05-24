@@ -92,8 +92,6 @@ body {
     background-color: #fff;
 }
 
-
-
 #myTab.nav-tabs {
     border: 1px solid transparent;
 }
@@ -101,4 +99,28 @@ body {
 ul#myTab {
     display: flex;
     justify-content: center;
+}
+
+#myTabContent p {
+    max-width: 992px;
+    margin: 3em auto;
+}
+
+/*Responsive Demarches Section*/
+
+.panel-default>.panel-heading {
+    background-color: #FFF;
+}
+
+a.js-tabcollapse-panel-heading {
+    text-decoration: none;
+    color: rgba(194, 47, 47,1);
+}
+
+.demarches .container {
+    margin: 3em;
+}
+
+#myTab-accordion .panel-default {
+    border-color: rgba(194, 47, 47,1);
 }
