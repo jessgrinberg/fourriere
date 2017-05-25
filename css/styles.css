@@ -156,6 +156,31 @@ a.js-tabcollapse-panel-heading {
     color: #fff;
 }
 
+/*FAQ section*/
+.faq {
+    padding: 4em 1em;
+}
+
+.toggle-title,
+a.tel-link {
+    color: rgba(194, 47, 47,1);
+    font-weight: 700;
+}
+
+.toggle-title {
+    font-size: 18px;
+    display: block;
+    margin: 2em 0;
+}
+
+.toggle-title:hover,
+.toggle-title:focus,
+a.tel-link {
+    color: rgba(194, 47, 47,.9);
+    text-decoration: none;
+}
+
+
 @media (max-width:768px) {
     .demarches .container {
         margin: 3em;
