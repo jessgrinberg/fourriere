@@ -139,8 +139,35 @@ a.js-tabcollapse-panel-heading {
     border-color: rgba(194, 47, 47,1);
 }
 
+
+/*Breather section*/
+
+.breather {
+    background-image: url("http://placehold.it/400x992");
+    padding: 8em 0;
+}
+
+.breather h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.breather h3, h4 {
+    color: #fff;
+}
+
 @media (max-width:768px) {
     .demarches .container {
         margin: 3em;
+    }
+
+    .breather h3 {
+        padding-bottom: 1em;
+    }
+}
+
+@media (min-width:769px) {
+    .breather h3 {
+        padding-top: 2.5em;
     }
 }
