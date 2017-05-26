@@ -152,7 +152,7 @@ a.js-tabcollapse-panel-heading {
     justify-content: center;
 }
 
-.breather h3, h4 {
+.breather h3, .breather h4 {
     color: #fff;
 }
 
@@ -180,6 +180,12 @@ a.tel-link {
     text-decoration: none;
 }
 
+/*Infos Section*/
+.infos h4 {
+    color: rgba(194, 47, 47,1);
+    margin: 20px 0;
+    line-height: 28px;
+}
 
 @media (max-width:768px) {
     .demarches .container {
