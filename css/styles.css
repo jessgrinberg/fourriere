@@ -190,30 +190,30 @@ a.tel-link {
 
 /*Footer Section*/
 
-footer {
+.widget {
     background-color: rgb(51, 51, 51);
     padding: 4em 0;
 }
 
-footer h4 {
+.widget h4 {
     color: #fff;
     margin: 1.25em 0;
     line-height: 26px;
 }
 
 
-footer p, footer li {
+.widget p, .widget li {
     color: rgb(204, 204, 204);
     line-height: 18px;
 }
 
-footer ul {
+.widget ul {
     list-style-type: none;
     padding-left: 0;
 }
 
-footer ul li,
-footer p:first-of-type{
+.widget ul li,
+.widget p:first-of-type{
     line-height: 36px;
 }
 
