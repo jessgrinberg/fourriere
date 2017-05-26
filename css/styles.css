@@ -187,6 +187,35 @@ a.tel-link {
     line-height: 28px;
 }
 
+
+/*Footer Section*/
+
+footer {
+    background-color: rgb(51, 51, 51);
+    padding: 4em 0;
+}
+
+footer h4 {
+    color: #fff;
+    margin: 1em 0;
+}
+
+
+footer p, footer li {
+    color: rgb(204, 204, 204);
+    line-height: 18px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+footer ul li,
+footer p:first-of-type{
+    line-height: 36px;
+}
+
 @media (max-width:768px) {
     .demarches .container {
         margin: 3em;
