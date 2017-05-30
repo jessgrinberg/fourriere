@@ -2,7 +2,6 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-
 /*Nav*/
 
 nav {
@@ -68,6 +67,17 @@ nav {
     margin: 1em auto;
 }
 
+.main {
+    color: #fff;
+}
+
+.main h1 {
+    font-family: 'Lora', serif;
+    letter-spacing: .1em;
+    font-weight: 400;
+    padding: .25em 0;
+}
+
 /*Intro Section*/
 .intro {
     padding: 1em 0;
@@ -90,7 +100,7 @@ nav {
 
 .services .row {
     max-width: 992px;
-    margin: 5em auto;
+    margin: 3em auto;
 }
 
 .intro {
