@@ -67,6 +67,21 @@ nav {
 .main .cta {
     margin: 1em auto;
 }
+
+/*Intro Section*/
+.intro {
+    padding: 1em 0;
+}
+
+.intro h3 {
+    color: #FFF;
+}
+
+.intro p {
+    color: rgba(255,255,255,0.9)
+}
+
+
 /*Services Section*/
 
 .services {
