@@ -78,17 +78,29 @@ nav {
     padding: .25em 0;
 }
 
+.main p {
+    font-size: 18px;
+    letter-spacing: 0.05em;
+}
+
 /*Intro Section*/
 .intro {
-    padding: 1em 0;
+    padding: 1.25em 0;
 }
 
 .intro h3 {
     color: #FFF;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    margin-bottom: 20px;
 }
 
 .intro p {
-    color: rgba(255,255,255,0.9)
+    color: rgba(255,255,255,0.85);
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
 }
 
 
