@@ -132,8 +132,7 @@ nav {
     margin-right: auto;
 }
 
-.paragraph-center {
-    max-width: 400px;
+.services-box-content {
     padding: 1em 1em 0;
 }
 
@@ -160,7 +159,8 @@ nav {
     font-weight: 700;
     max-width: 400px;
     color: rgba(194, 47, 47,1);
-    padding: 1em 0 0.5em;
+    padding: 1em 0;
+    line-height: 30px;
 }
 
 /*Demarches Section*/
