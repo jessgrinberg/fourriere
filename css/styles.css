@@ -9,6 +9,10 @@ nav {
     margin-bottom: 0 !important;
 }
 
+.navbar-default {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
 .nav-tabs li span {
     display: block;
     text-align: center;
