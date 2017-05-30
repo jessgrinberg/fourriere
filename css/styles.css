@@ -225,6 +225,12 @@ a.js-tabcollapse-panel-heading {
 /*FAQ section*/
 .faq {
     padding: 4em 1em;
+    margin: 0 auto;
+    max-width: 992px;
+}
+
+.faq p {
+    max-width: 992px;
 }
 
 .toggle-title,
