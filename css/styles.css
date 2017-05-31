@@ -28,7 +28,6 @@ nav {
     font-size: 16px;
     font-weight: 700;
     color: #c22f01 !important;
-
 }
 
 .nav-tabs>li>a:hover,
@@ -37,7 +36,6 @@ nav {
 .nav-tabs>li.active>a:hover{
     border-bottom: 3px solid #c22f01;
     transition: border-bottom ease .3s;
-
 }
 
 .nav-tabs>li>a,
@@ -79,11 +77,14 @@ nav {
     letter-spacing: .1em;
     font-weight: 400;
     padding: .25em 0;
+    line-height: 42px;
 }
 
 .main p {
     font-size: 18px;
     letter-spacing: 0.05em;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 /*Intro Section*/
@@ -97,6 +98,7 @@ nav {
     font-size: 18px;
     letter-spacing: 0.05em;
     margin-bottom: 20px;
+    line-height: 24px;
 }
 
 .intro p {
@@ -365,6 +367,18 @@ footer p {
 }
 
 @media (max-width:767px) {
+
+    .main h1 {
+        font-size: 30px;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .main p {
+        font-size: 14px;
+        max-width: 375px;
+    }
+
     .demarches .container {
         margin: 3em;
     }
