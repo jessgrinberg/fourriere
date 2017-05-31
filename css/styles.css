@@ -329,7 +329,10 @@ form button:hover {
     color: #fff !important;
     border: 2px solid rgb(194,47,47)
 }
-
+input.form-control,
+textarea.form-control {
+    color: #fff;
+}
 /*Footer*/
 
 footer {
