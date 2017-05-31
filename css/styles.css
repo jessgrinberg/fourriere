@@ -267,30 +267,30 @@ a.tel-link {
 
 /*Widget Section*/
 
-.widget {
+.contact {
     background-color: rgb(51, 51, 51);
     padding: 4em 0;
 }
 
-.widget h4 {
+.contact h4 {
     color: #fff;
     margin: 1.25em 0;
     line-height: 26px;
 }
 
 
-.widget p, .widget li {
+.contact p, .contact li {
     color: rgb(204, 204, 204);
     line-height: 18px;
 }
 
-.widget ul {
+.contact ul {
     list-style-type: none;
     padding-left: 0;
 }
 
-.widget ul li,
-.widget p:first-of-type{
+.contact ul li,
+.contact p:first-of-type{
     line-height: 36px;
 }
 
