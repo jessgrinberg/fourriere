@@ -112,7 +112,7 @@ nav {
 
 .services .row {
     max-width: 992px;
-    margin: 3em auto;
+    margin: 2em auto;
 }
 
 .intro {
@@ -166,7 +166,7 @@ nav {
 /*Demarches Section*/
 
 .demarches {
-    margin: 4em 0 5em;
+    margin: 2em 0;
 }
 
 #myTab.nav-tabs {
@@ -224,8 +224,7 @@ a.js-tabcollapse-panel-heading {
 
 /*FAQ section*/
 .faq {
-    padding: 4em 1em;
-    margin: 0 auto;
+    margin: 2em auto;
     max-width: 992px;
 }
 
@@ -253,6 +252,11 @@ a.tel-link {
 }
 
 /*Infos Section*/
+
+.infos {
+    margin: 2em 0;
+}
+
 .infos h4 {
     color: rgba(194, 47, 47,1);
     margin: 20px 0;
@@ -349,13 +353,17 @@ footer p {
     line-height: 50px;
 }
 
-@media (max-width:768px) {
+@media (max-width:767px) {
     .demarches .container {
         margin: 3em;
     }
 
     .breather h3 {
         padding-bottom: 1em;
+    }
+
+    .infos-box {
+        margin-bottom: 2em;
     }
 }
 
