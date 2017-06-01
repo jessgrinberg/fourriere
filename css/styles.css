@@ -53,8 +53,7 @@ nav {
 /*Main Section*/
 
 .main {
-    background-image: url("http://placehold.it/500x992");
-    min-height: 500px;
+    background-repeat: no-repeat;
 }
 
 .content {
