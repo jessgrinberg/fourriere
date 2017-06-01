@@ -244,6 +244,7 @@ a.js-tabcollapse-panel-heading {
     max-width: 992px;
 }
 
+.savoir-plus a,
 .toggle-title,
 a.tel-link {
     color: #c22f01;
@@ -258,6 +259,7 @@ a.tel-link {
 
 .toggle-title:hover,
 .toggle-title:focus,
+.savoir-plus a:hover,
 a.tel-link {
     color: rgba(194, 47, 47,.9);
     text-decoration: none;
@@ -270,7 +272,6 @@ a.tel-link {
 }
 
 .savoir-plus h4 {
-    color: #c22f01;
     margin: 20px 0;
     line-height: 28px;
     font-weight: 700;
