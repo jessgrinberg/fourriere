@@ -395,6 +395,10 @@ footer p {
         margin: 3em;
     }
 
+    .breather {
+        padding: 4em 0;
+    }
+
     .breather h3 {
         padding-bottom: 1em;
     }
