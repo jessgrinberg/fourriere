@@ -285,17 +285,11 @@ a.tel-link {
 
 .contact p, .contact li {
     color: rgb(204, 204, 204);
-    line-height: 18px;
 }
 
 .contact ul {
     list-style-type: none;
     padding-left: 0;
-}
-
-.contact ul li,
-.contact p:first-of-type{
-    line-height: 36px;
 }
 
 form input, form textarea {
