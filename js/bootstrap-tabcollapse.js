@@ -32,7 +32,7 @@
                     '      <h4 class="panel-title">' +
                     '      </h4>' +
                     '   </div>' +
-                    '   <div id="' + groupId + '" class="panel-collapse collapse ' + (active ? 'in' : '') + '">' +
+                    '   <div id="' + groupId + '" class="panel-collapse collapse ' + (active ? '' : '') + '">' +
                     '       <div class="panel-body js-tabcollapse-panel-body">' +
                     '       </div>' +
                     '   </div>' +
