@@ -96,7 +96,8 @@ nav {
 
 /*Intro Section*/
 .intro {
-    padding: 1.25em 0;
+    padding: 0 0 1em 0;
+    background-color: #1c1b20;
 }
 
 .intro h3 {
@@ -104,7 +105,7 @@ nav {
     font-weight: 700;
     font-size: 18px;
     letter-spacing: 0.05em;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     line-height: 24px;
 }
 
@@ -125,10 +126,6 @@ nav {
 .services .row {
     max-width: 992px;
     margin: 2em auto;
-}
-
-.intro {
-    background-color: #000;
 }
 
 .services-box {
