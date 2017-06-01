@@ -54,6 +54,7 @@ nav {
 
 .main {
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .content {
@@ -213,7 +214,8 @@ a.js-tabcollapse-panel-heading {
 /*Breather section*/
 
 .breather {
-    background-image: url("http://placehold.it/400x992");
+    background-repeat: no-repeat;
+    background-position: center;
     padding: 8em 0;
 }
 
