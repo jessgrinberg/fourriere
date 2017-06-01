@@ -226,13 +226,13 @@ a.js-tabcollapse-panel-heading {
     color: #fff;
 }
 
-/*FAQ section*/
-.faq {
+/* Infos Pratiques section*/
+.infos-pratiques {
     margin: 2em auto;
     max-width: 992px;
 }
 
-.faq p {
+.infos-pratiques p {
     max-width: 992px;
 }
 
