@@ -283,13 +283,21 @@ a.tel-link {
 }
 
 
-.contact p, .contact li {
+.contact p, .contact li, .contact ul li a {
     color: rgb(204, 204, 204);
 }
 
 .contact ul {
     list-style-type: none;
     padding-left: 0;
+}
+
+.contact ul li a {
+    text-decoration: none;
+}
+
+.contact ul li a:hover {
+    color: #fff;
 }
 
 form input, form textarea {
