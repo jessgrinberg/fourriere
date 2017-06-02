@@ -382,11 +382,6 @@ footer p {
 
 /*CTA Bottom*/
 
-.cta-bottom {
-    background-color: #c22f01;
-    display: none;
-}
-
 .cta-bottom a,
 .cta-bottom a:focus,
 .cta-bottom a:hover {
@@ -397,10 +392,20 @@ footer p {
     padding: .25em 0;
 }
 
+.cta-bottom {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 81px;
+    background: #c22f01;
+    z-index: 1;
+}
+
 @media (max-width:414px) {
 
     footer {
-        margin-bottom: 81px;
+        margin-bottom: 80px;
     }
     .cta-bottom {
         display: block;
