@@ -81,7 +81,6 @@ nav {
 
 .main h1 {
     font-family: 'Lora', serif;
-    letter-spacing: .1em;
     font-weight: 400;
     padding: .25em 0;
     line-height: 42px;
@@ -407,7 +406,7 @@ footer p {
     footer {
         margin-bottom: 80px;
     }
-    
+
 }
 
 
