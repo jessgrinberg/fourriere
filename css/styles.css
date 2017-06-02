@@ -393,7 +393,7 @@ footer p {
 }
 
 .cta-bottom {
-    display: none;
+    display:none;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -407,14 +407,11 @@ footer p {
     footer {
         margin-bottom: 80px;
     }
-    .cta-bottom {
-        display: block;
-    }
+    
 }
 
 
 @media (max-width:767px) {
-
     .main h1 {
         font-size: 30px;
         margin: 0 auto;

@@ -9,7 +9,8 @@ $(function ($) {
 
 $(document).scroll(function () {
     var y = $(this).scrollTop();
-    if (y > 300) {
+    var x = $(this).width();
+    if (y > 300 && x < 415) {
         $('.cta-bottom').fadeIn();
     } else {
         $('.cta-bottom').fadeOut();
