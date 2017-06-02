@@ -380,6 +380,34 @@ footer p {
     color: #000;
 }
 
+/*CTA Bottom*/
+
+.cta-bottom {
+    background-color: #c22f01;
+    display: none;
+}
+
+.cta-bottom a,
+.cta-bottom a:focus,
+.cta-bottom a:hover {
+    color: #fff;
+}
+
+.cta-bottom img {
+    padding: .25em 0;
+}
+
+@media (max-width:414px) {
+
+    footer {
+        margin-bottom: 81px;
+    }
+    .cta-bottom {
+        display: block;
+    }
+}
+
+
 @media (max-width:767px) {
 
     .main h1 {
@@ -406,8 +434,9 @@ footer p {
     .savoir-plus-box {
         margin-bottom: 2em;
     }
+
     footer p {
-        margin: 2.5em 0 0.5em;
+        margin: 1em 0 0;
         text-align: center;
     }
 
