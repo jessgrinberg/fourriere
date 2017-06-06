@@ -65,14 +65,21 @@ nav {
 }
 
 .content {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-justify-content: center;
   justify-content: center;
+  -webkit-flex-direction: column;
+  -webkit-box-orient: vertical;
   flex-direction: column;
   height: 500px;
 }
 
 .main .cta {
     margin: 2em auto .25em;
+    max-width: 222.3px;
 }
 
 .main {
@@ -184,7 +191,11 @@ nav {
 }
 
 ul#myTab {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-justify-content: center;
     justify-content: center;
     margin-bottom: 4em !important;
 }
@@ -225,7 +236,11 @@ a.js-tabcollapse-panel-heading {
 }
 
 .breather h3 {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-justify-content: center;
     justify-content: center;
 }
 
