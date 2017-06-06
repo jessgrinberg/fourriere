@@ -401,6 +401,27 @@ footer p {
     z-index: 1;
 }
 
+
+.alert-box {
+    background: #fff;
+    z-index: 3000;
+    border: 1px solid #ddd;
+    margin: 2em 0 0 2em;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: none;
+}
+
+.alert-box .alert {
+    padding: 2em;
+}
+
+.alert-box h4 {
+    font-weight: 700;
+}
+
+
 @media (max-width:414px) {
 
     footer {

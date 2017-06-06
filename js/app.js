@@ -17,3 +17,10 @@ $(document).scroll(function () {
     }
 
 });
+
+var contactBoxTimeout = window.setTimeout(function() {
+    var x = $(this).width();
+    if(x > 415) {
+        document.getElementById('alert-box').style.display = "block";
+    }
+}, 4500); 
